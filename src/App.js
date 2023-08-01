@@ -5,7 +5,7 @@ import Down from "./assets/svg/arrow down.svg";
 import Carousel from "./components/Carousel";
 
 function submitForm() {
-  const form = document.getElementById("myForm"); // Substitua "myForm" pelo ID correto do seu formulário
+  const form = document.getElementById("myForm");
   const submitButton = form.querySelector(".button");
   const originalButtonText = submitButton.textContent;
   submitButton.textContent = "Enviando...";
