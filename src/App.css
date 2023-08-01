@@ -12,10 +12,10 @@
 }
 
 .logo {
-  margin-top: 10vh; /* Ajuste a distância conforme necessário (10vh = 10% da altura da tela) */
-  max-width: 80%; /* Ajuste a largura do logo conforme necessário */
-  max-height: auto; /* Ajuste a altura do logo conforme necessário */
-  font: normal normal bold 36px/1.25 "Montserrat"; /* Ajuste o tamanho da fonte conforme necessário */
+  margin-top: 10vh;
+  max-width: 80%;
+  max-height: auto;
+  font: normal normal bold 36px/1.25 "Montserrat";
 }
 
 .box-card {
@@ -23,10 +23,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 5vh; /* Ajuste a distância conforme necessário (5vh = 5% da altura da tela) */
-  width: 80%; /* Ajuste a largura do box conforme necessário */
-  max-width: 800px; /* Defina uma largura máxima */
-  height: auto; /* Ajuste a altura do box automaticamente com base no conteúdo */
+  margin-top: 5vh;
+  width: 80%;
+  max-width: 800px;
+  height: auto;
   border: 131px;
   border-radius: 131px;
   box-sizing: border-box;
@@ -34,9 +34,9 @@
 }
 
 .text-1 {
-  margin-top: 2vh; /* Ajuste a distância conforme necessário (2vh = 2% da altura da tela) */
+  margin-top: 2vh;
   text-align: center;
-  font: normal normal bold 30px/1.25 "Montserrat"; /* Ajuste o tamanho da fonte conforme necessário */
+  font: normal normal bold 30px/1.25 "Montserrat";
   letter-spacing: 0px;
   color: #ffffff;
   text-transform: uppercase;
@@ -44,15 +44,15 @@
 }
 
 .plus {
-  margin-top: 1vh; /* Ajuste a distância conforme necessário (1vh = 1% da altura da tela) */
+  margin-top: 1vh;
   text-align: center;
   display: block;
 }
 
 .spoiller {
-  margin-top: 0.5vh; /* Ajuste a distância conforme necessário (0.5vh = 0.5% da altura da tela) */
+  margin-top: 0.5vh;
   text-align: left;
-  font: normal normal bold 8vw/1.25 "Montserrat"; /* Ajuste o tamanho da fonte conforme necessário */
+  font: normal normal bold 8vw/1.25 "Montserrat";
   letter-spacing: 0px;
   color: #fc2bee;
   text-transform: uppercase;
@@ -60,12 +60,12 @@
 }
 
 .down {
-  margin-top: 2vh; /* Ajuste a distância conforme necessário (2vh = 2% da altura da tela) */
+  margin-top: 2vh;
 }
 
 .text-2 {
   text-align: center;
-  font: normal normal bold 1.8vw/1.25 "Montserrat"; /* Ajuste o tamanho da fonte conforme necessário */
+  font: normal normal bold 1.8vw/1.25 "Montserrat";
   letter-spacing: 0px;
   color: #ffffff;
   text-transform: uppercase;
@@ -74,7 +74,7 @@
 
 .text-3 {
   text-align: center;
-  font: normal normal bold 4vw/1.25 "Montserrat"; /* Ajuste o tamanho da fonte conforme necessário */
+  font: normal normal bold 4vw/1.25 "Montserrat";
   letter-spacing: 0px;
   color: #fc2bee;
   text-transform: uppercase;
@@ -83,9 +83,9 @@
 
 .box-card-2 {
   background: #26093a 0% 0% no-repeat padding-box;
-  width: 80%; /* Ajuste a largura do box conforme necessário */
-  max-width: 800px; /* Defina uma largura máxima */
-  height: auto; /* Ajuste a altura do box automaticamente com base no conteúdo */
+  width: 80%;
+  max-width: 800px;
+  height: auto;
   border: 131px;
   border-radius: 131px;
 }
@@ -121,14 +121,14 @@
   border: 1px solid #ffffff;
   border-radius: 35px;
   opacity: 1;
-  margin-top: 2vh; /* Adjust the distance as needed */
+  margin-top: 2vh;
 }
 
 .email {
   border: 1px solid #fc2bee;
   border-radius: 35px;
   opacity: 1;
-  margin-top: 2vh; /* Adjust the distance as needed */
+  margin-top: 2vh;
 }
 
 .button {
@@ -140,7 +140,7 @@
 
 .text-5 {
   text-align: center;
-  font: normal normal bold 18px/80px Montserrat;
+  font: normal normal bold 18px/80px "Montserrat";
   letter-spacing: 0px;
   color: #ffffff;
   text-transform: uppercase;
@@ -149,7 +149,7 @@
 
 .text-6 {
   text-align: center;
-  font: normal normal normal 10px/16px Montserrat;
+  font: normal normal normal 10px/16px "Montserrat";
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;

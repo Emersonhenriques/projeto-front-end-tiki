@@ -4,6 +4,20 @@ import Plus from "./assets/svg/icon-yellow.svg";
 import Down from "./assets/svg/arrow down.svg";
 import Carousel from "./components/Carousel";
 
+function submitForm() {
+  const form = document.getElementById("myForm"); // Substitua "myForm" pelo ID correto do seu formulário
+  const submitButton = form.querySelector(".button");
+  const originalButtonText = submitButton.textContent;
+  submitButton.textContent = "Enviando...";
+  submitButton.disabled = true;
+
+  setTimeout(() => {
+    form.reset();
+    submitButton.textContent = originalButtonText;
+    submitButton.disabled = false;
+  }, 2000);
+}
+
 function App() {
   return (
     <div className="bg">
@@ -20,7 +34,7 @@ function App() {
       <img src={Plus} alt="plus" className="plus" />
       <div className="box-card-2">
         <p className="text-4">Cadastre-se e fique por dentro das novidades</p>
-        <form className="form">
+        <form className="form" id="myForm">
           <input className="name" type="text" placeholder="Nome"></input>
           <input
             className="email"
@@ -31,10 +45,12 @@ function App() {
           <label className="radio">
             Declaro que li e aceito os termos de uso e política de privacidade
           </label>
-          <button className="button">Enviar</button>
+          <button type="submit" className="button" onClick={submitForm}>
+            Enviar
+          </button>
         </form>
         <p className="text-5">TEXTO LEGAL</p>
-        <p className="text-6">
+        <p className="">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dui
           odio, ullamcorper vel leo sed, lacinia aliquam tortor. Donec in nulla
           nisi. Integer imperdiet vulputate elit, sed varius sem commodo vel.
