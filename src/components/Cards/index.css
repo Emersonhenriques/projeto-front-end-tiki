@@ -9,13 +9,13 @@
 
   &.small {
     width: 535px;
-    padding: 94px;
+    padding: 52px;
     border-radius: 80px;
   }
 
   &.big {
     width: 1088px;
-    padding: 52px;
+    padding: 94px;
     border-radius: 131px;
   }
 

@@ -1,17 +1,17 @@
-import "./index.css";
-import Logo from "../../assets/svg/logo-tiki.svg";
-import Plus from "../../assets/svg/icon-yellow.svg";
-import Down from "../../assets/svg/arrow down.svg";
-import Spoilers from "../../assets/svg/tittle1.svg";
-import Title2 from "../../assets/svg/tittle2.svg";
-import Header from "../../components/Header";
-import Cards from "../../components/Cards";
-import Text from "../../components/Text";
-import Carousel from "../../components/Carousel/Carousel";
-import Footer from "../../components/Footer";
-import Button from "../../components/Button";
-import Input from "../../components/Input";
-import { useState } from "react";
+import './index.css';
+import Logo from '../../assets/svg/logo-tiki.svg';
+import Plus from '../../assets/svg/icon-yellow.svg';
+import Down from '../../assets/svg/arrow down.svg';
+import Spoilers from '../../assets/svg/tittle1.svg';
+import Title2 from '../../assets/svg/tittle2.svg';
+import Header from '../../components/Header';
+import Cards from '../../components/Cards';
+import Text from '../../components/Text';
+import Carousel from '../../components/Carousel';
+import Footer from '../../components/Footer';
+import Button from '../../components/Button';
+import Input from '../../components/Input';
+import { useState } from 'react';
 
 const Dashboard = () => {
   const [loading, setLoading] = useState(false);
@@ -19,7 +19,7 @@ const Dashboard = () => {
   function submitForm(event) {
     // Evitar um recarregamento/atualização do navegador
     event.preventDefault();
-    const form = document.getElementById("myForm");
+    const form = document.getElementById('myForm');
     setLoading(true);
     setTimeout(() => {
       form.reset();
@@ -51,7 +51,7 @@ const Dashboard = () => {
             <Input type="email" placeholder="meuemail@gmail.com"></Input>
             <Input
               label={
-                "Declaro que li e aceito os termos de uso e política de privacidade"
+                'Declaro que li e aceito os termos de uso e política de privacidade'
               }
               className="radio"
               type="radio"
@@ -59,7 +59,7 @@ const Dashboard = () => {
             ></Input>
             <Button
               type="submit"
-              label={"Enviar"}
+              label={'Enviar'}
               loading={loading}
               onClick={submitForm}
             ></Button>
