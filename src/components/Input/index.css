@@ -14,19 +14,13 @@ input[type=email] {
 
 }
 
-input[type=text]:focus {
-    color: #FC2BEE !important;
-    border: 1px solid #FC2BEE !important;
-}
-
+input[type=text]:focus,
 input[type=email]:focus {
+    outline: none !important;
     color: #FC2BEE !important;
     border: 1px solid #FC2BEE !important;
 }
 
-input[type='radio']:checked {
-    background: #FC2BEE;
-}
 
 .box-radio {
     display: flex;
@@ -36,14 +30,17 @@ input[type='radio']:checked {
     align-items: center;
 }
 
-input[type="radio"] {
+input[type='radio']:checked {
+    background: #FC2BEE;
+}
+
+input[type='radio'] {
     appearance: none;
-    background: #26093A 0% 0% no-repeat padding-box;
-    margin: 0;
-    font: inherit;
-    border: 1px solid #FFFFFF;
+    -webkit-appearance: none;
     border-radius: 50%;
-    padding: 1px;
+    background: transparent;
+    border: 6px solid #26093A;
+    outline: 1px solid #FFFFFF;
     width: 25px;
     height: 25px;
 }
