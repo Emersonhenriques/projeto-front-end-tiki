@@ -1,0 +1,23 @@
+.box-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  box-sizing: border-box;
+  background: #26093a 0% 0% no-repeat padding-box;
+
+  &.small {
+    width: 535px;
+    padding: 94px;
+    border-radius: 80px;
+  }
+
+  &.big {
+    width: 1088px;
+    padding: 52px;
+    border-radius: 131px;
+  }
+
+
+}

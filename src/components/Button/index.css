@@ -1,0 +1,19 @@
+.button {
+    width: 425px;
+    height: 70px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 5px 0px #FC2BEE;
+    border-radius: 35px;
+    opacity: 1;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #280031 !important;
+    gap: 10px;
+}
+
+.fa {
+    font-size: 20px;
+}

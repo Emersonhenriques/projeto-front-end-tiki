@@ -1,0 +1,63 @@
+.bold-36 {
+    font: normal normal bold 36px/80px "Montserrat";
+    text-shadow: 0 0 1px #ffffff;
+    background: #26093a;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.bold-24 {
+    font: normal normal bold 24px/80px "Montserrat";
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.bold-18 {
+    font: normal normal bold 18px "Montserrat";
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.bold-14 {
+    font: normal normal bold 14px/80px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.regular-14 {
+    font: normal normal normal 14px/80px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.regular-12 {
+    font: normal normal normal 12px/80px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.regular-10 {
+    font: normal normal normal 10px/16px "Montserrat";
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.black {
+    color: black !important;
+}

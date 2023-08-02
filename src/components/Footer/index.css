@@ -1,0 +1,10 @@
+.footer {
+  max-width: 1088px;
+  margin: 124px 0 122px;
+
+  .container {
+    margin-top: 14px;
+    width: 100%;
+  }
+
+}
